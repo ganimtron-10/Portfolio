@@ -1,17 +1,24 @@
 educationDetails = {
     0: {
-        time: "2015 - 2017",
-        institutionName: "Barnett College",
-        institutionLocation: "Fiarfield, NY",
-        course: "Master's Web Development",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga."
+        time: "2020 - 2024",
+        institutionName: "Savitribai Phule Pune University",
+        institutionLocation: "Pune, MH",
+        course: "B.E. Computer Engineering",
+        grade: "8.8*/10.0"
     },
     1: {
-        time: "2011 - 2015",
-        institutionName: "ULA",
-        institutionLocation: "Los Angeles, CA",
-        course: "Undergraduate Computer Science",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro fuga."
+        time: "2018 - 2020",
+        institutionName: "Pratibha Junior College",
+        institutionLocation: "Pune, MH",
+        course: "HSC",
+        grade: "85.54%"
+    },
+    2: {
+        time: "2017 - 2018",
+        institutionName: "P. Jog High School",
+        institutionLocation: "Pune, MH",
+        course: "SSC",
+        grade: "88.80%"
     }
 }
 
@@ -20,29 +27,18 @@ let educationCard = document.getElementById("education-card");
 
 for (let i = 0; i < Object.keys(educationDetails).length; i++) {
     educationCard.innerHTML += `
-    <div class="card shadow border-0 rounded-4 mb-5">
-        <div class="card-body p-5">
-            <div class="row align-items-center gx-5">
-                <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                    <div class="bg-light p-4 rounded-4">
-                        <div class="text-secondary fw-bolder mb-2">2015 - 2017</div>
-                        <div class="mb-2">
-                            <div class="small fw-bolder">Barnett College</div>
-                            <div class="small text-muted">Fairfield, NY</div>
-                        </div>
-                        <div class="fst-italic">
-                            <div class="small text-muted">Master's</div>
-                            <div class="small text-muted">Web Development</div>
-                        </div>
-                    </div>
+    <div class="row align-items-center p-3">
+        <div class="col text-center text-lg-start mb-4 mb-lg-0">
+            <div class="row bg-light p-4 rounded-4">
+                <div class="col-12 col-lg-3 small fw-bolder">${educationDetails[i].course}</div>
+                <div class="col-12 col-lg-3 mb-2">
+                    <div class="small text-muted">${educationDetails[i].institutionName}</div>
+                    <div class="small text-muted">${educationDetails[i].institutionLocation}</div>
                 </div>
-                <div class="col-lg-8">
-                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-                        laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet
-                        officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro
-                        fuga.</div>
-                </div>
+                <div class="col-12 col-lg-3 text-secondary fw-bolder mb-2">${educationDetails[i].time}</div>
+                <div class="col-12 col-lg-3 text-secondary mb-2">${educationDetails[i].grade}</div>
             </div>
         </div>
-    </div>`;
+    </div>
+`;
 }
