@@ -1,20 +1,20 @@
-projectDetails = {
-    0: {
+projectDetails = [
+    {
         name: "Project Name 2",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!",
         img: "https://dummyimage.com/300x400/343a40/6c757d"
     },
-    1: {
+    {
         name: "Project Name 2",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!",
         img: "https://dummyimage.com/300x400/343a40/6c757d"
     }
-}
+]
 
 
 let projectCard = document.getElementById("project-card");
 
-for (let i = 0; i < Object.keys(projectDetails).length; i++) {
+for (let i = 0; i < projectDetails.length; i++) {
     projectCard.innerHTML += `
     <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
         <div class="card-body p-0">

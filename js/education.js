@@ -1,31 +1,31 @@
-educationDetails = {
-    0: {
+educationDetails = [
+    {
         time: "2020 - 2024",
         institutionName: "Savitribai Phule Pune University",
         institutionLocation: "Pune, MH",
         course: "B.E. Computer Engineering",
         grade: "8.8*/10.0"
     },
-    1: {
+    {
         time: "2018 - 2020",
         institutionName: "Pratibha Junior College",
         institutionLocation: "Pune, MH",
         course: "HSC",
         grade: "85.54%"
     },
-    2: {
+    {
         time: "2017 - 2018",
         institutionName: "P. Jog High School",
         institutionLocation: "Pune, MH",
         course: "SSC",
         grade: "88.80%"
     }
-}
+]
 
 
 let educationCard = document.getElementById("education-card");
 
-for (let i = 0; i < Object.keys(educationDetails).length; i++) {
+for (let i = 0; i < educationDetails.length; i++) {
     educationCard.innerHTML += `
     <div class="row align-items-center p-3">
         <div class="col text-center text-lg-start mb-4 mb-lg-0">
