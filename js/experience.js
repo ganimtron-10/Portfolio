@@ -11,7 +11,7 @@ const experienceDetails = [
         ]
     },
     {
-        term: "May 2023 - Sep 2023",
+        term: "June 2023 - Sep 2023",
         position: "GSoC Contributor",
         companyName: "FURY, Python Software Foundation",
         companyLocation: "Remote",
@@ -23,7 +23,17 @@ const experienceDetails = [
         ]
     },
     {
-        term: "Jun 2022 - Oct 2022",
+        term: "June 2022 - July 2023",
+        position: "Lead Trainer",
+        companyName: "Infeanet Solutions",
+        companyLocation: "Pune, MH",
+        description: ["I led comprehensive Python Course for a group of 50 students, emphasizing a profound grasp of Python concepts and their practical application.",
+            "I conceptualized and executed a series of 4 Python projects, spanning from fundamental to advanced levels.These projects included interactive games like 'Guess Game and Hangman,' a utility for 'PDF Read Alouder,' a 'Steve - Virtual Voice Assistant', and a sophisticated 'ChatGPT Clone with Voice Controls.'",
+            "A significant 87% of students found my teaching explanations clear and easy to follow.",
+            "Not only did this course enhance students career prospects, but it also notably improved their academic performance."]
+    },
+    {
+        term: "May 2022 - Oct 2022",
         position: "GSoC Contributor",
         companyName: "FURY, Python Software Foundation",
         companyLocation: "Remote",
