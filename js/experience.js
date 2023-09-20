@@ -1,7 +1,7 @@
 const experienceDetails = [
     {
         term: "Aug 2021 - Present",
-        position: "Founder",
+        position: "Builder",
         companyName: "IODump",
         companyLocation: "Remote",
         description: ["Led a team of 20 individuals in various domains including development, event organization, workshops, and technical education, fostering collaboration and achieving successful outcomes.",
@@ -23,7 +23,17 @@ const experienceDetails = [
         ]
     },
     {
-        term: "June 2022 - July 2023",
+        term: "May 2023 - Present",
+        position: "5ireHub Tech Lead",
+        companyName: "5ire Chain",
+        companyLocation: "Pune, MH",
+        description: ["5ire Chain is creating a sustainable Blockchain aligned with the United Nation's 17 sustainability goals.",
+            "In my role as Tech Lead, We organized events, conducted workshops, managed 5ireHub's social presence along with my Non Tech teammate to ensure the success of these initiatives.",
+            "I served as the primary technical resource, offering guidance and support for building, deploying, and working with contracts, dapps, tokens, and other blockchain-related components.",
+            "We hosted 5 events, engaging over 280 participants and providing comprehensive explanations of blockchain technology and its related ecosystem."]
+    },
+    {
+        term: "June 2023 - July 2023",
         position: "Lead Trainer",
         companyName: "Infeanet Solutions",
         companyLocation: "Pune, MH",
