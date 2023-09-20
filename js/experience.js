@@ -23,7 +23,7 @@ const experienceDetails = [
         ]
     },
     {
-        term: "Jun 2023 - Oct 2023",
+        term: "Jun 2022 - Oct 2022",
         position: "GSoC Contributor",
         companyName: "FURY, Python Software Foundation",
         companyLocation: "Remote",
@@ -31,6 +31,17 @@ const experienceDetails = [
             "Developed a highly useful component called DrawPanel, enabling researchers and students to visualize complex geometrical objects and chemistry molecules.",
             "Implemented 8 different modes for creating primitive objects, allowing users to easily manipulate and group/un-group them along with a freehand mode, providing the flexibility to draw custom shapes and designs.",
             "Significantly improved test coverage by 10% through the creation and updating of unit tests, ensuring the stability and reliability of the software."]
+    },
+    {
+        term: "Jan 2022 - Mar 2023",
+        position: "IT Trainer",
+        companyName: "LevelApp",
+        companyLocation: "Remote",
+        description: [
+            "Developed and analyzed a comprehensive Blackjack Game, studying trends in betting, player profits, and winning distribution using Basic Stratergy to simulate turns.",
+            "Completed an Image Processing assignment using Data Visualization and Machine Learning, including various topics like Markov Chain for generating artistic images.",
+            "Worked as DSA Instructor in C/C++, covering key topics like Arrays, Linked Lists, Stack, Queues and Graphs."
+        ]
     }
 ]
 
