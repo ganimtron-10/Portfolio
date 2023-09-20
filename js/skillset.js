@@ -1,4 +1,4 @@
-skillsetDetails = {
+const skillsetDetails = {
   "Languages": {
     skills: ["Python", "JavaScript", "C/C++", "Solidity"],
     icon: "bi bi-code-slash"

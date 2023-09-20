@@ -1,4 +1,4 @@
-projectDetails = [
+const projectDetails = [
     {
         name: "Project Name 2",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!",
@@ -12,7 +12,7 @@ projectDetails = [
 ]
 
 
-let projectCard = document.getElementById("project-card");
+const projectCard = document.getElementById("project-card");
 
 for (let i = 0; i < projectDetails.length; i++) {
     projectCard.innerHTML += `

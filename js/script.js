@@ -1,4 +1,4 @@
-let navigationBar = document.getElementById("navigation-bar");
+const navigationBar = document.getElementById("navigation-bar");
 navigationBar.innerHTML += `
 <div class="container px-5">
     <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">ganimtron_10</span></a>
@@ -18,7 +18,7 @@ navigationBar.innerHTML += `
 `;
 
 
-let footer = document.getElementById("footer");
+const footer = document.getElementById("footer");
 footer.innerHTML += `
 <div class="container px-5">
     <div class="row align-items-center justify-content-between flex-column flex-sm-row">

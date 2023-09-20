@@ -1,4 +1,4 @@
-educationDetails = [
+const educationDetails = [
     {
         time: "2020 - 2024",
         institutionName: "Savitribai Phule Pune University",
@@ -23,7 +23,7 @@ educationDetails = [
 ]
 
 
-let educationCard = document.getElementById("education-card");
+const educationCard = document.getElementById("education-card");
 
 for (let i = 0; i < educationDetails.length; i++) {
     educationCard.innerHTML += `
