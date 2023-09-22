@@ -6,6 +6,12 @@ const projectDetails = [
         description: `<b>Wumpus World</b> is an engaging 2D puzzle action adventure game that lets you step into the shoes of an AI agent. With easy controls, it's suitable for players of all skill levels. You'll explore an underground labyrinth, gradually building your knowledge of the environment—a great learning experience for understanding AI concepts. Currently available on PC and desktop, mobile controls are in the works. Dive into this educational adventure, solve puzzles, and enhance your problem-solving skills today!`
     },
     {
+        name: "Just Another Blockchain Explorer (JABE)",
+        img: "assets/jabe.png",
+        link: "https://github.com/ganimtron-10/JustAnotherBlockchainExplorer",
+        description: `<b>JABE</b>, short for Just Another Blockchain Explorer, is a user-friendly web application designed for hassle-free exploration of the Ethereum Blockchain. It boasts a minimalist and efficient design, prioritizing essential data retrieval to ensure a lightweight and responsive user experience. With <b>JABE</b>, you can effortlessly navigate recent blocks and transactions, gaining real-time insights into the Ethereum Blockchain's activities. Powered by React and the Alchemy SDK, <b>JABE</b> makes it the perfect choice for both newcomers to explore the haunting world of Web3.`
+    },
+    {
         name: "AdvTower",
         img: "assets/advtower.png",
         link: "https://devfolio.co/projects/advtower-fe79",
@@ -34,6 +40,18 @@ const projectDetails = [
         img: "assets/panchtatva.png",
         link: "https://ganimtron10.itch.io/panchatatva",
         description: `<b>Panchatatva</b> offers an immersive RPG adventure with multiple levels and thrilling boss fights. In this captivating game, you'll face off against two formidable foes, a powerful wizard and a colossal Golem, in epic battles. Along the way, engage in intense combat with skeleton guards. What's more, <b>Panchatatva</b> is designed for maximum accessibility, supporting all platforms without any need for prior installation. Embark on an epic journey and test your mettle in <b>Panchatatva</b> today!`
+    },
+    {
+        name: "Virtual Hologram Controller",
+        img: "assets/vhc.png",
+        link: "https://github.com/ganimtron-10/Virtual_Hologram_Controller",
+        description: `<b>Virtual Hologram Controller</b> is a Python application leveraging OpenCV and MediaPipe for hand tracking-based gesture control. It enables intuitive interaction by allowing users to change colors through hand rotation, scale objects using pinch gestures, and reposition shapes with two-finger gestures. This innovative application provides an engaging and dynamic user experience, showcasing the fusion of technology and user-friendly interface design.`
+    },
+    {
+        name: "LandsDAO",
+        img: "assets/landsdao.png",
+        link: "https://github.com/ganimtron-10/landsdao",
+        description: `<b>LandsDAO</b> is a web3 project that redefines property ownership and access. Born out of the creative spirit of EthIndia 2022, this initiative seeks to tokenize land, dividing it into multiple tokens, each representing a unique stake in the property. These tokens can be owned by different individuals, facilitating co-ownership and shared access to real estate. As part of the team, I led the development of the project's frontend, designing a user-friendly interface that dynamically fetched data from the blockchain. Although our journey during the hackathon was cut short, <b>LandsDAO</b> remains a testament to the innovation and potential of decentralized technologies in reshaping traditional industries.`
     }
 ]
 
@@ -46,7 +64,7 @@ for (let i = 0; i < projectDetails.length; i++) {
         <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
             <div class="card-body p-0 text-black">
                 <div class="d-flex flex-column flex-md-row align-items-center">
-                    <img class="img-fluid mb-3 mb-md-0 w-100"
+                    <img class="img-fluid mb-3 p-5 mb-md-0 w-100"
                         src="${projectDetails[i].img}" alt="..." />
                     <div class="m-5">
                         <h2 class="text-secondary fw-bolder">${projectDetails[i].name}</h2>
