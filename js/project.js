@@ -34,6 +34,18 @@ const projectDetails = [
         img: "assets/panchtatva.png",
         link: "https://ganimtron10.itch.io/panchatatva",
         description: `<b>Panchatatva</b> offers an immersive RPG adventure with multiple levels and thrilling boss fights. In this captivating game, you'll face off against two formidable foes, a powerful wizard and a colossal Golem, in epic battles. Along the way, engage in intense combat with skeleton guards. What's more, <b>Panchatatva</b> is designed for maximum accessibility, supporting all platforms without any need for prior installation. Embark on an epic journey and test your mettle in <b>Panchatatva</b> today!`
+    },
+    {
+        name: "Just Another Blockchain Explorer (JABE)",
+        img: "assets/jabe.png",
+        link: "https://github.com/ganimtron-10/JustAnotherBlockchainExplorer",
+        description: `<b>JABE</b>, short for Just Another Blockchain Explorer, is a user-friendly web application designed for hassle-free exploration of the Ethereum Blockchain. It boasts a minimalist and efficient design, prioritizing essential data retrieval to ensure a lightweight and responsive user experience. With <b>JABE</b>, you can effortlessly navigate recent blocks and transactions, gaining real-time insights into the Ethereum Blockchain's activities. Powered by React and the Alchemy SDK, <b>JABE</b> makes it the perfect choice for both newcomers to explore the haunting world of Web3.`
+    },
+    {
+        name: "Virtual Hologram Controller",
+        img: "assets/vhc.png",
+        link: "https://github.com/ganimtron-10/Virtual_Hologram_Controller",
+        description: `<b>Virtual Hologram Controller</b> is a Python application leveraging OpenCV and MediaPipe for hand tracking-based gesture control. It enables intuitive interaction by allowing users to change colors through hand rotation, scale objects using pinch gestures, and reposition shapes with two-finger gestures. This innovative application provides an engaging and dynamic user experience, showcasing the fusion of technology and user-friendly interface design.`
     }
 ]
 
