@@ -23,7 +23,7 @@ const experienceDetails = [
         ]
     },
     {
-        term: "May 2023 - Present",
+        term: "May 2023 - Dec 2023",
         position: "5ireHub Tech Lead",
         companyName: "5ire Chain",
         companyLocation: "Pune, MH",
