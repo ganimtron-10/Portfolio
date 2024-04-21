@@ -1,23 +1,19 @@
 const skillsetDetails = {
   "Languages": {
-    skills: ["Python", "JavaScript", "C/C++", "Solidity"],
+    skills: ["Python", "TypeScript", "JavaScript", "C/C++", "Solidity"],
     icon: "bi bi-code-slash"
   },
+  "Technologies": {
+    skills: ["Git", "GitHub", "Shell", "NodeJS", "Linux", "Docker", "Kubernetes", "Salesforce", "Jira", "Godot", "Unity"],
+    icon: "bi bi-tools"
+  },
   "Libraries & Frameworks": {
-    skills: ["NumPy", "Pandas", "OpenCV", "Mediapipe", "PyAutoGUI", "Tkinter", "React", "React Native", "Express", "Mongoose", "Web3.js", "p5.js"],
+    skills: ["FastAPI", "Alembic", "Django", "PyGame", "NumPy", "Pandas", "OpenCV", "Mediapipe", "PyAutoGUI", "Tkinter", "Selenium", "Beautiful Soup", "React", "React Native", "Flutter", "Express", "Mongoose", "Phaser", "Web3.js", "p5.js"],
     icon: "bi bi-collection-fill"
   },
   "Databases": {
-    skills: ["MongoDB", "SQL"],
+    skills: ["PostgreSQL", "MySQL", "MySQL"],
     icon: "bi bi-pie-chart-fill"
-  },
-  "Game Development Tools": {
-    skills: ["Godot", "Unity", "Phaser", "PyGame"],
-    icon: "bi bi-joystick"
-  },
-  "Development Tools": {
-    skills: ["Git", "GitHub", "NodeJS", "Linux", "Docker", "Salesforce"],
-    icon: "bi bi-tools"
   },
 }
 
