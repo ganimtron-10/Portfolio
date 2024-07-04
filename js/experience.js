@@ -1,6 +1,28 @@
 const experienceDetails = [
     {
-        term: "Aug 2021 - Present",
+        term: "July 2023 - Present",
+        position: "Associate Business System DevOps Engineer",
+        companyName: "PTC Software (India) Pvt. Ltd.",
+        companyLocation: "Hybrid",
+        description: ["Created and Refined Azure Pipelines to automate Daily Image Scanning and Purging older Databases keeping systems healthy.",
+            "Developed and deployed 13+ automation scripts in Python and JavaScript to optimize manual and repetitive tasks, to increase productivity.",
+            "Collaborated and Led Proof-of-Concept (POC) initiatives to evaluate system impact of potential migrations, tool integrations, and latest system software releases.",
+            "Worked as Salesforce Admin, picking up initiatives including Change Porting from Lower to Higher Environments and BackPortings using Copado Release Manager, ensuring seamless deployment procedures."
+        ]
+    },
+    {
+        term: "Jan 2023 - July 2023",
+        position: "Backend Engineer",
+        companyName: "Zenskar",
+        companyLocation: "Remote",
+        description: ["Headed Integration Development at an early staged Fintech SaaS, which provides automated solutions for complex billing problems.",
+            "Worked with 6 connectors Netsuite, Salesforce, Hubspot, Xero, QuickBooks and Stripe to handle a smooth Two way Customer and Journal Entry Sync.",
+            "Helped onboard 2 clients as Salesforce CRM integration was the main onboarding requirement.",
+            "Migrated all synchronous unit tests to relevant asynchronous fully mocked unit tests, which reduced the overall test execution time by 2.15 minutes."
+        ]
+    },
+    {
+        term: "Aug 2021 - June 2024",
         position: "Builder",
         companyName: "IODump",
         companyLocation: "Remote",

@@ -59,8 +59,6 @@ const projectDetails = [
         link: "https://github.com/ganimtron-10/Virtual_Hologram_Controller",
         description: "<b>Virtual Hologram Controller</b> is a Python application leveraging OpenCV and MediaPipe for hand tracking-based gesture control. It enables intuitive interaction by allowing users to change colors through hand rotation, scale objects using pinch gestures, and reposition shapes with two-finger gestures. This innovative application provides an engaging and dynamic user experience, showcasing the fusion of technology and user-friendly interface design."
     },
-
-
     {
         name: "LandsDAO",
         img: "assets/landsdao.png",
