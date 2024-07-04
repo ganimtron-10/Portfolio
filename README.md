@@ -2,11 +2,9 @@
 
 Welcome to my portfolio website repository! This project showcases my work, skills, and experiences through a personal website. Below you will find an overview of the repository contents, the technology stack used, and instructions on how to view and interact with the site.
 
-## About
+## Details
 
 This portfolio website is a comprehensive showcase of my professional journey. It includes information about my background, skills, projects, and contact details. It serves as an online resume and a way for people to learn more about me.
-
-## Features
 
 - **Home Page**: An introduction and brief overview of who I am.
 - **Experiences**: A list of my experiences in various domains.
