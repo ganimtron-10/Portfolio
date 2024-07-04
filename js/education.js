@@ -4,7 +4,7 @@ const educationDetails = [
         institutionName: "Savitribai Phule Pune University",
         institutionLocation: "Pune, MH",
         course: "B.E. Computer Engineering",
-        grade: "8.8*/10.0"
+        grade: "9.03/10.0"
     },
     {
         time: "2018 - 2020",
