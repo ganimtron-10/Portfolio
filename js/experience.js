@@ -6,6 +6,7 @@ const experienceDetails = [
         companyLocation: "Hybrid",
         description: ["Created and Refined Azure Pipelines to automate Daily Image Scanning and Purging older Databases keeping systems healthy.",
             "Developed and deployed 13+ automation scripts in Python and JavaScript to optimize manual and repetitive tasks, to increase productivity.",
+            "Implemented an End-to-End Redirection handler tool to configure and manage redirection endpoints, providing a unified interface for streamlining access and management.",
             "Collaborated and Led Proof-of-Concept (POC) initiatives to evaluate system impact of potential migrations, tool integrations, and latest system software releases.",
             "Worked as Salesforce Admin, picking up initiatives including Change Porting from Lower to Higher Environments and BackPortings using Copado Release Manager, ensuring seamless deployment procedures."
         ]
