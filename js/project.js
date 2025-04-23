@@ -6,6 +6,12 @@ const projectDetails = [
         description: "<b>Akfak</b> is a simple messaging system built <b>from scratch</b> in Go, inspired by Kafka. Developed to gain a deep understanding of distributed systems and low-level network protocols, it features <b>implemented core Kafka protocol APIs</b> (including API Versions, Fetch, and Describe), handles <b>concurrent client connections</b>, and engineers the intricate <b>low-level TCP request/response pipeline</b> for binary data. The implementation was <b>rigorously validated</b> using an external testing framework to ensure protocol accuracy and robustness."
     },
     {
+        "name": "Goell (GO shELL)",
+        "img": "assets/goell.png",
+        "link": "https://github.com/ganimtron-10/goell",
+        "description": "<b>Goell</b> (GO shELL) is a minimal shell written in <b>Go</b>, created <b>from scratch</b> to understand fundamental shell features. This project focused on implementing core functionalities like <b>command execution</b>, <b>navigation</b>, <b>quoting</b>, and <b>redirection</b> to explore how shells process and interpret user input."
+    },
+    {
         "name": "TDLE: Text-based Daily Learning Exercise",
         "img": "assets/tdle.png",
         "link": "https://tvia.vercel.app/",
@@ -16,6 +22,18 @@ const projectDetails = [
         img: "assets/wumpusworld.png",
         link: "https://ganimtron10.itch.io/wumpusworld",
         description: "<b>Wumpus World</b> is an engaging 2D puzzle action adventure game that lets you step into the shoes of an AI agent. With easy controls, it's suitable for players of all skill levels. You'll explore an underground labyrinth, gradually building your knowledge of the environment—a great learning experience for understanding AI concepts. Currently available on PC and desktop, mobile controls are in the works. Dive into this educational adventure, solve puzzles, and enhance your problem-solving skills today!"
+    },
+    {
+        "name": "EquityFusion",
+        "img": "assets/equityfusion.png",
+        "link": "https://github.com/ganimtron-10/EquityFusion",
+        "description": "<b>EquityFusion</b> is a Go-based RESTful API cum CLI application simulating a stock market with order matching and portfolio management. It allows users to register and trade stocks using tokens, featuring order management (buy/sell), a simulated stock exchange with order matching (price & FIFO), and portfolio tracking. Built with <b>Go</b>, <b>Gin</b>, and <b>CobraCli</b>."
+    },
+    {
+        "name": "BhaiCLI",
+        "img": "assets/bhaicli.png",
+        "link": "https://github.com/ganimtron-10/bhai-cli",
+        "description": "<b>BhaiCLI</b> (CLI's ka Bhai aur Bhaiyo ka CLI!) is a simple, conversational Command Line Interface designed to make interacting with your system's basic file and directory operations more friendly. Built using <b>GoLang</b> and the <b>CobraCli</b> library, it provides intuitive Hindi/Hinglish commands like `bhai ye bana` (create file), `bhai ye dikha` (list files/dirs), `bhai ye copy` (copy file), `bhai ye nikal` (delete file/dir), and others for common file and directory management tasks."
     },
     {
         name: "KafSync",
