@@ -1,5 +1,17 @@
 const projectDetails = [
     {
+        name: "Akfak: Kafka-Inspired Messaging System",
+        img: "assets/akfak.png",
+        link: "https://github.com/ganimtron-10/akfak",
+        description: "<b>Akfak</b> is a simple messaging system built <b>from scratch</b> in Go, inspired by Kafka. Developed to gain a deep understanding of distributed systems and low-level network protocols, it features <b>implemented core Kafka protocol APIs</b> (including API Versions, Fetch, and Describe), handles <b>concurrent client connections</b>, and engineers the intricate <b>low-level TCP request/response pipeline</b> for binary data. The implementation was <b>rigorously validated</b> using an external testing framework to ensure protocol accuracy and robustness."
+    },
+    {
+        "name": "TDLE: Text-based Daily Learning Exercise",
+        "img": "assets/tdle.png",
+        "link": "https://tvia.vercel.app/",
+        "description": "<b>TDLE</b> (Text-based Daily Learning Exercise) is an app that makes learning both engaging and enjoyable, inspired by the popular word-guessing game Wordle. Designed as the first in a series to boost vocabulary, it features core <b>Word Guessing</b> gameplay with feedback and includes planned features like <b>On-Chain Rewards</b>, <b>Customizable Learning</b>, and <b>Multiplayer Mode</b>. It serves as a demonstration of building interactive web applications with <b>Next.js</b>, <b>TypeScript</b>, <b>Tailwind CSS</b>, and <b>Wagmi</b>."
+    },
+    {
         name: "Wumpus World",
         img: "assets/wumpusworld.png",
         link: "https://ganimtron10.itch.io/wumpusworld",
@@ -81,7 +93,7 @@ for (let i = 0; i < projectDetails.length; i++) {
                     <div class="m-5">
                         <h2 class="text-secondary fw-bolder">${projectDetails[i].name}</h2>
                         <p class="text-muted text-justify">${projectDetails[i].description}</p>
-                        <a href="${projectDetails[i].link}" class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder">Demo</a>
+                        <a href="${projectDetails[i].link}" target="_blank" class="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder">Demo</a>
                     </div>
                 </div>
             </div>
