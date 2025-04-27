@@ -23,7 +23,7 @@ footer.innerHTML += `
 <div class="container px-5">
     <div class="row align-items-center justify-content-between flex-column flex-sm-row">
         <div class="col-auto">
-            <div class="small m-0">Copyright &copy; Praneeth 2024</div>
+            <div class="small m-0">Copyright &copy; Praneeth ${new Date().getFullYear()}</div>
         </div>
         <div class="col-auto">
             <a class="small" href="index.html">Home</a>
