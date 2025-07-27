@@ -106,8 +106,8 @@ for (let i = 0; i < projectDetails.length; i++) {
         <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
             <div class="card-body p-0 text-black">
                 <div class="d-flex flex-column flex-md-row align-items-center">
-                    <img class="img-fluid mb-3 p-5 mb-md-0 w-100"
-                        src="${projectDetails[i].img}" alt="..." />
+                    <img class="img-fluid mb-3 p-5 mb-md-0"
+                        src="${projectDetails[i].img}" alt="..." style="width: 350px; object-fit: cover;"/>
                     <div class="m-5">
                         <h2 class="text-secondary fw-bolder">${projectDetails[i].name}</h2>
                         <p class="text-muted text-justify">${projectDetails[i].description}</p>
