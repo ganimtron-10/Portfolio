@@ -12,10 +12,22 @@ const projectDetails = [
         description: "<b>Pravas</b> is a comprehensive, <b>mobile-first application</b> designed to streamline bus booking and management. It provides a familiar user experience, extending bus booking, bus management, scheduling and bus notification functionalities directly to mobile devices. This app empowers users and bus operators in remote areas to digitize their operations without needing laptops or computers, offering complete control over bus reservations, payment processing, and efficient management of schedules and routes from their smartphones."
     },
     {
+        name: "Godfather: Mafia/Warewolf Coordinator",
+        img: "assets/godfather.png",
+        link: "https://godfather-mafia.vercel.app/",
+        description: "<b>Godfather</b> is a real-time multiplayer online party game that automates the classic social deduction experience, allowing <b>everyone to play</b> without needing a manual game master. It features a <b>Day/Night cycle</b>, secret role assignments (Mafia, Doctor, Detective, Villager), and dynamic player interaction through discussions, accusations, and voting. Built for instant fun with no sign-ups. It solves the common pain point of experienced players being stuck moderating, bringing the full thrill of deception and strategy to every participant."
+    },
+    {
         name: "Akfak: Kafka-Inspired Messaging System",
         img: "assets/akfak.png",
         code: "https://github.com/ganimtron-10/akfak",
         description: "<b>Akfak</b> is a simple messaging system built <b>from scratch</b> in Go, inspired by Kafka. Developed to gain a deep understanding of distributed systems and low-level network protocols, it features <b>implemented core Kafka protocol APIs</b> (including API Versions, Fetch, and Describe), handles <b>concurrent client connections</b>, and engineers the intricate <b>low-level TCP request/response pipeline</b> for binary data. The implementation was <b>rigorously validated</b> using an external testing framework to ensure protocol accuracy and robustness."
+    },
+    {
+        name: "WhoSpy",
+        img: "assets/whospy.png",
+        link: "https://whospy.vercel.app/",
+        description: "<b>WhoSpy</b> is a real-time, online social deduction game. The game is designed to test player's communication and deduction skills. One player is the spy and tries to bluff their way through a conversation while the rest of the players, who know a secret word, try to uncover their identity. The game features frictionless onboarding with no sign-up or login required, ensuring a seamless and instant gaming experience for friends."
     },
     {
         name: "TDLE: Text-based Daily Learning Exercise",
